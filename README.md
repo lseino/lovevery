@@ -1,5 +1,5 @@
 # Hello World Application
- This application  builds and deploys a custom hello world rails application on a local minikube cluster
+ This application  builds and deploys a custom hello world python application on a local minikube cluster
 
  ## Folder Structure
 
