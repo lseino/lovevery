@@ -19,7 +19,7 @@ deploy_appp(){
     echo "creating hello-world namespace"
     kubectl create namespace $namespace
     echo " deploying application to minikube"
-    kubectl apply -f ./k8/hello-world.yml -n $namespace
+    kubectl apply -f ./k8/helloworld.yml -n $namespace
     echo "deployment completed"
 
 }
