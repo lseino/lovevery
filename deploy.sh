@@ -15,7 +15,7 @@ build_app(){
     docker build -t $IMAGE_NAME .
 }
 
-deploy_appp(){
+deploy_app(){
     echo "creating hello-world namespace"
     kubectl create namespace $namespace
     echo " deploying application to minikube"
@@ -25,4 +25,4 @@ deploy_appp(){
 }
 
 build_app
-deploy_appp
+deploy_app
